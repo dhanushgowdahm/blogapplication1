@@ -1,0 +1,71 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #000000;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0; /* Reset margin to remove default space */
+}
+
+.navlinks {
+    flex-grow: 1;
+    text-align: center; /* Align the nav links in the center */
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px; /* Adjust space between navigation links */
+}
+
+.user-actions {
+    display: flex;
+}
+
+.login-btn,
+.signup-btn {
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    color: rgb(4, 43, 240);
+    background-color: #fefdfd;
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+    background-color: #3ae7e7;
+}
+
+
+
+
